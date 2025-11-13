@@ -37,8 +37,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: inherit;
+}
+
+a:hover {
+    color: var(--primary-green);
+    text-decoration: none;
 }
 
 ul {
@@ -119,6 +124,7 @@ button {
     font-weight: 600;
     transition: var(--transition);
     position: relative;
+    text-decoration: none;
 }
 
 .nav-link:hover,
@@ -334,6 +340,7 @@ button {
     font-weight: 600;
     color: var(--secondary-green);
     transition: var(--transition);
+    text-decoration: none;
 }
 
 .event-link i {
@@ -343,6 +350,7 @@ button {
 
 .event-link:hover {
     color: var(--primary-green);
+    text-decoration: none;
 }
 
 .event-link:hover i {
@@ -584,6 +592,7 @@ button {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     transition: var(--transition);
+    text-decoration: none;
 }
 
 .social-links a:hover {
@@ -597,6 +606,7 @@ button {
 
 .footer-links a {
     transition: var(--transition);
+    text-decoration: none;
 }
 
 .footer-links a:hover {
